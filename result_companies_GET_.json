@@ -1,0 +1,35 @@
+{
+    "self": "/v1/companies/2008",
+    "name": "_2021-09-10-PCS-15.25.35 - 2008",
+    "number_of_employees": 0,
+    "flagged": false,
+    "addresses": [
+        {
+            "label": "Arbeit",
+            "country": "Deutschland"
+        }
+    ],
+    "companies": [
+        {
+            "company": "/v1/companies/3006",
+            "relationship_type": {
+                "self": "/v1/relationship_types/11001",
+                "description": "beliefert"
+            },
+            "direction": "forward"
+        },
+        {
+            "company": "/v1/companies/1008",
+            "relationship_type": {
+                "self": "/v1/relationship_types/7001",
+                "description": "gewogen <"
+            },
+            "direction": "reverse"
+        }
+    ],
+    "owner": "/v1/users/1000",
+    "creator": "/v1/users/1000",
+    "trashed": false,
+    "create_date": "2021-09-10T13:25:32.391Z",
+    "modify_date": "2021-10-23T12:51:23.439Z"
+}
